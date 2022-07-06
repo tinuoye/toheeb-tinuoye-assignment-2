@@ -14,7 +14,7 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
  
-let array = [1, 3, 5, 7, 9, 11, 11, 13, 15, 420];
+let array = [1, 3, 5, 7, 9, 11, 11, 13, 15];
 
 
 function sumOfNumbers() {
@@ -43,7 +43,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 
-let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 26];
+let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20];
 
 let arrayOfEvenNumbers = [];
 
