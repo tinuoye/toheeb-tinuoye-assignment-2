@@ -77,11 +77,11 @@ const fahrenheitArray = [];
 function celsiusToFahrenheit() { 
     celsiusArray.forEach(celsius => {
         let fahrenheit = Math.floor((celsius * 1.8) + 32)
-        fahrenheitArray.push(fahrenheit)    
-    })
+        fahrenheitArray.push(fahrenheit);    
+    });
 	
-    return fahrenheitArray
-}
+    return fahrenheitArray;
+};
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
