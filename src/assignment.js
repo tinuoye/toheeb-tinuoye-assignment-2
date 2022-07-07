@@ -14,10 +14,10 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
  
-let array = [1, 3, 5, 7, 9, 11, 11, 13, 15];
 
 
-function sumOfNumbers() {
+
+function sumOfNumbers(array) {
     let sum = 0
     for (let i = 0; i < array.length; i++) {
         sum += array[i];    
@@ -43,11 +43,11 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 
-let arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20];
+
 
 let arrayOfEvenNumbers = [];
 
-function countEvenNumbers() {
+function countEvenNumbers(arrayOfNumbers) {
 		arrayOfNumbers.forEach (number => {
 			if ( number % 2 === 0){
 				arrayOfEvenNumbers.push(number);
@@ -75,18 +75,18 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-// 	const celsiusArray = [24, 30, 14, -8, 22, 17, -5, 25, 1.7, 25, 10, 10, 28, 33, 39, 28, 23, -1, 1.7, -4];
-// const fahrenheitArray = [];
-
-// function celsiusToFahrenheit() { 
-//     celsiusArray.forEach(celsius => {
-//         let fahrenheit = Math.floor((celsius * 1.8) + 32)
-//         fahrenheitArray.push(fahrenheit);    
-//     });
 	
-//     return fahrenheitArray;
-// };
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
+
+function celsiusToFahrenheit() { 
+    celsiusArray.forEach(celsius => {
+        let fahrenheit = Math.floor((celsius * 1.8) + 32)
+        fahrenheitArray.push(fahrenheit);    
+    });
+	
+    return fahrenheitArray;
+};
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
